@@ -22,7 +22,6 @@ winget install --id Microsoft.VisualStudioCode -e --silent --accept-package-agre
 echo [3/5] Installing Node.js LTS...
 winget install --id OpenJS.NodeJS.LTS -e --silent --accept-package-agreements --accept-source-agreements
 
-<<<<<<< HEAD
 echo [4/6] Installing LibreOffice...
 winget install --id TheDocumentFoundation.LibreOffice -e --silent --accept-package-agreements --accept-source-agreements
 
@@ -30,12 +29,7 @@ echo [5/6] Installing Python...
 winget install --id Python.Python.3.12 -e --silent --accept-package-agreements --accept-source-agreements
 
 echo [6/6] Installing Claude...
-=======
-echo [4/5] Installing LibreOffice...
-winget install --id TheDocumentFoundation.LibreOffice -e --silent --accept-package-agreements --accept-source-agreements
 
-echo [5/5] Installing Claude...
->>>>>>> f551f3a6ef738fc1d5a3b44a05ea3dedc0689912
 winget install --id Anthropic.Claude -e --silent --accept-package-agreements --accept-source-agreements
 
 echo.
@@ -60,13 +54,10 @@ echo [LibreOffice]
 winget list --id TheDocumentFoundation.LibreOffice -e
 
 echo.
-<<<<<<< HEAD
 echo [Python]
 winget list --id Python.Python.3.12 -e
 
 echo.
-=======
->>>>>>> f551f3a6ef738fc1d5a3b44a05ea3dedc0689912
 echo [Claude]
 winget list --id Anthropic.Claude -e
 
